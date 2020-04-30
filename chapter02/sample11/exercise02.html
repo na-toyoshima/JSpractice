@@ -15,12 +15,15 @@
         <div class="frame__inner">
             <!-- ここに、JavaScriptを記述します -->
             <script>
-                const today = new Date();
-                const week = ['日', '月', '火', '水', '木', '金', '土'];
+                // let day = 1;
+                // while(day <= 365){
+                //     document.write(day + '<br>');
+                //     day ++;
+                // }
 
-                let week_jp = week[today.getDay()]
-                document.write(`今日は、${week_jp}曜日です`);
-                // document.write(today.getDay());
+                for(let day = 1; day<=365; day++){
+                    document.write(day + '<br>');
+                }
             </script>
         </div>
     </div>
