@@ -13,16 +13,14 @@
         <h1 class="frame__title">JavaScript</h1>
 
         <div class="frame__inner">
+            <button id="buy">決済する</button>
             <!-- ここに、JavaScriptを記述します -->
             <script>
-                const q1 = Math.floor(Math.random() * 10);
-                const q2 = Math.floor(Math.random() * 10);
-                let answer = parseInt(prompt(`${q1}+${q2}=?`));
-                if(q1+q2 === answer){
-                    alert(`正解です`);
-                } else {
-                    alert(`ハズレです`);
-                }
+                const btn = document.getElementById(`buy`);
+                btn.addEventListener(`dblclick`,() => {
+                    btn.disabled = true;
+                });
+
             </script>
         </div>
     </div>

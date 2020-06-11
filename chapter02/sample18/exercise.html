@@ -15,13 +15,12 @@
         <div class="frame__inner">
             <!-- ここに、JavaScriptを記述します -->
             <script>
-                const q1 = Math.floor(Math.random() * 10);
-                const q2 = Math.floor(Math.random() * 10);
-                let answer = parseInt(prompt(`${q1}+${q2}=?`));
-                if(q1+q2 === answer){
-                    alert(`正解です`);
+                let num = parseInt(prompt(`数字を入力してください`));
+
+                if (num % 2 === 0){
+                    document.write(`偶数です`);
                 } else {
-                    alert(`ハズレです`);
+                    document.write(`奇数です`);
                 }
             </script>
         </div>
