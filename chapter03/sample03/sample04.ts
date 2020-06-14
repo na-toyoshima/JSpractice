@@ -1,5 +1,5 @@
-let myname: any = 'たにぐちまこと';
+let myname: any = '豊嶋';
 let height: string | number = 169;
 
 myname = 10;
-height = 'わからない';
+height = '不明';

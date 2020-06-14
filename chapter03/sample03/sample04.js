@@ -1,5 +1,5 @@
 "use strict";
-var myname = 'たにぐちまこと';
+var myname = '豊嶋';
 var height = 169;
 myname = 10;
-height = 'わからない';
+height = '不明';
